@@ -1,0 +1,19 @@
+name: zulip-notify
+version: 1.0.1
+description: Send success or failure notifications to a Zulip team inbox.
+keywords:
+  - notification
+  - zulip
+properties:
+  bot:
+    type: string
+    required: true
+  domain:
+    type: string
+    required: true
+  stream:
+    type: string
+    required: true
+  on:
+    type: string
+    default: always
